@@ -1,0 +1,27 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "System for tracking lab disposables and placing orders",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mmiless/inventory.git"
+  },
+  "author": "Miles Kirkbride",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mmiless/inventory/issues"
+  },
+  "homepage": "https://github.com/Mmiless/inventory#readme",
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
